@@ -12,7 +12,7 @@ module.exports = {
 				'accent-7': '#333',
 				success: '#0070f3',
 				cyan: '#79FFE1',
-				primary: colors.red,
+				primary: colors.blue,
 			},
 			typography: () => ({
 				DEFAULT: {
