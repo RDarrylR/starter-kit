@@ -141,8 +141,8 @@ export const Footer = () => {
 								Terms
 							</a>
 						</p>
-					</div> */}
-				</div>
+					</div>
+				</div> */}
 			</Container>
 		</footer>
 	);
