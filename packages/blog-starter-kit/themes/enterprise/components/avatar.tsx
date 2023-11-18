@@ -12,7 +12,7 @@ export const Avatar = ({ username, name, picture, size }: Props) => {
 	return (
 		<div className="flex items-center gap-2">
 			<a
-				href={`https://hashnode.com/@${username}`}
+				// href={`https://hashnode.com/@${username}`}
 				className={
 					size
 						? `w-${size} h-${size} block overflow-hidden rounded-full`
