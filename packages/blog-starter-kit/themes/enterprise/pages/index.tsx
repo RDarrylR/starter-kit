@@ -30,9 +30,9 @@ import {
 } from '../generated/graphql';
 import { DEFAULT_COVER } from '../utils/const';
 
-const SubscribeForm = dynamic(() =>
-	import('../components/subscribe-form').then((mod) => mod.SubscribeForm),
-);
+// const SubscribeForm = dynamic(() =>
+// 	import('../components/subscribe-form').then((mod) => mod.SubscribeForm),
+// );
 
 const GQL_ENDPOINT = process.env.NEXT_PUBLIC_HASHNODE_GQL_ENDPOINT;
 
