@@ -79,7 +79,7 @@ export default function Index({ publication, initialAllPosts, initialPageInfo }:
 			/>
 		);
 	});
-	const morePosts = allPosts.slice(4);
+	const morePosts = allPosts;
 
 	return (
 		<AppProvider publication={publication}>
