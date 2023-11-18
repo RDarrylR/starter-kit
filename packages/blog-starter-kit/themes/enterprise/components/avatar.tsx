@@ -28,9 +28,10 @@ export const Avatar = ({ username, name, picture, size }: Props) => {
 				/>
 			</a>
 			<div className="text-base font-bold text-slate-600 dark:text-neutral-300">
-				<a href={`https://hashnode.com/@${username}`} target="_blank" rel="noopener noreferrer">
+			{name}
+				{/* <a href={`https://hashnode.com/@${username}`} target="_blank" rel="noopener noreferrer">
 					{name}
-				</a>
+				</a> */}
 			</div>
 		</div>
 	);
