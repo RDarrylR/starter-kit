@@ -24,7 +24,7 @@ export const PostHeader = ({ title, coverImage, date, author, readTimeInMinutes 
 				<Avatar
 					username={author.username}
 					name={author.name}
-					size={8}
+					size={10}
 					picture={author.profilePicture}
 				/>
 				<span className="block font-bold text-slate-500">&middot;</span>
