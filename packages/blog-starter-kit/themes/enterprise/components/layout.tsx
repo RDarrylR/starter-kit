@@ -1,4 +1,4 @@
-import { Analytics } from './analytics';
+import { Analytics } from '@vercel/analytics/react';
 import { Integrations } from './integrations';
 import { Meta } from './meta';
 import { Scripts } from './scripts';
