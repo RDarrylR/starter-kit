@@ -145,7 +145,6 @@ const Post = (publication: PublicationFragment, post: PostFullFragment) => {
 				</div>
 			)}
 			{!post.preferences.disableComments && post.comments.totalDocuments > 0 && <PostComments />}
-			<Subscribe />
 		</>
 	);
 };
