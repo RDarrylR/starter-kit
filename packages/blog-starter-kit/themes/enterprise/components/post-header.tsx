@@ -15,7 +15,10 @@ type Props = {
 	author: Author;
 	readTimeInMinutes: number;
 };
-
+console.log("author")
+console.log(author)
+console.log("cover image")
+console.log(coverImage)
 export const PostHeader = ({ title, coverImage, date, author, readTimeInMinutes }: Props) => {
 	return (
 		<>
