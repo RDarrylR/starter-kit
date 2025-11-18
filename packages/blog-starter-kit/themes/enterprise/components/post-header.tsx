@@ -22,12 +22,6 @@ export const PostHeader = ({ title, coverImage, date, author, readTimeInMinutes 
 		<>
 			<PostTitle>{title}</PostTitle>
 			<div className="flex flex-row flex-wrap items-center justify-center w-full gap-2 px-2 text-slate-700 dark:text-neutral-300 md:px-0">
-				<Avatar
-					username={author.username}
-					name={author.name}
-					size={10}
-					picture={author.profilePicture}
-				/>
 				<span className="block font-bold text-slate-500">&middot;</span>
 				<DateFormatter dateString={date} />
 				{readTimeInMinutes && <span className="block font-bold text-slate-500">&middot;</span>}
