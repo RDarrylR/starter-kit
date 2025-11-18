@@ -36,7 +36,7 @@ export const PostHeader = ({ title, coverImage, date, author, readTimeInMinutes 
 				<div className="w-full px-5 sm:mx-0">
 					<CoverImage
 						title={title}
-						src={resizeImage(coverImage, { w: 1600, h: 840, c: 'thumb' })}
+						src={resizeImage(coverImage, { w: 400, h: 210, c: 'thumb' })}
 						priority={true}
 					/>
 				</div>
