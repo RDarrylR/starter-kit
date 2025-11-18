@@ -23,7 +23,7 @@ export const Avatar = ({ username, name, picture, size }: Props) => {
 			>
 				<img
 					className="block h-full w-full"
-					src={resizeImage(picture, { w: 160, h: 160, c: 'face' }, DEFAULT_AVATAR)}
+					src={resizeImage(picture, { w: 16, h: 16, c: 'face' }, DEFAULT_AVATAR)}
 					alt={name}
 				/>
 			</a>
