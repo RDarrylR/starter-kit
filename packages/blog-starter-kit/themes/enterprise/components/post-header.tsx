@@ -25,7 +25,7 @@ export const PostHeader = ({ title, coverImage, date, author, readTimeInMinutes 
 					username={author.username}
 					name={author.name}
 					size={10}
-					picture={resizeImage(author.profilePicture, { w: 400, h: 210 }}
+					picture={resizeImage(author.profilePicture, { w: 400, h: 210 })}
 				/>
 				<span className="block font-bold text-slate-500">&middot;</span>
 				<DateFormatter dateString={date} />
