@@ -19,7 +19,7 @@ type Props = {
 export const PostHeader = ({ title, coverImage, date, author, readTimeInMinutes }: Props) => {
 	return (
 		<>
-			<PostTitle>{title}</PostTitle>
+			<PostTitle>ABC</PostTitle>
 			<div className="flex flex-row flex-wrap items-center justify-center w-full gap-2 px-2 text-slate-700 dark:text-neutral-300 md:px-0">
 				<Avatar
 					username={author.username}
