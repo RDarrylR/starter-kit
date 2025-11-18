@@ -19,13 +19,13 @@ type Props = {
 export const PostHeader = ({ title, coverImage, date, author, readTimeInMinutes }: Props) => {
 	return (
 		<>
-			<PostTitle>ABC</PostTitle>
+			<PostTitle>{title}</PostTitle>
 			<div className="flex flex-row flex-wrap items-center justify-center w-full gap-2 px-2 text-slate-700 dark:text-neutral-300 md:px-0">
 				<Avatar
 					username={author.username}
 					name={author.name}
 					size={10}
-					picture={author.profilePicture}
+					picture={resizeImage(author.profilePicture, { w: 400, h: 210 }}
 				/>
 				<span className="block font-bold text-slate-500">&middot;</span>
 				<DateFormatter dateString={date} />
@@ -36,7 +36,7 @@ export const PostHeader = ({ title, coverImage, date, author, readTimeInMinutes 
 				<div className="w-full px-5 sm:mx-0">
 					<CoverImage
             title="ABC"
-						src={resizeImage(coverImage, { w: 400, h: 210, c: 'thumb' })}
+						src={resizeImage(coverImage, { w: 1600, h: 840, c: 'thumb' })}
 						priority={true}
 					/>
 				</div>
