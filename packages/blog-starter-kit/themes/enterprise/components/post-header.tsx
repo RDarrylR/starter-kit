@@ -15,11 +15,9 @@ type Props = {
 	author: Author;
 	readTimeInMinutes: number;
 };
-console.log("author")
-console.log(props.author)
-console.log("cover image")
-console.log(props.coverImage)
+
 export const PostHeader = ({ title, coverImage, date, author, readTimeInMinutes }: Props) => {
+  console.log('PostHeader props:', { title, coverImage, date, author, readTimeInMinutes });
 	return (
 		<>
 			<PostTitle>{title}</PostTitle>
